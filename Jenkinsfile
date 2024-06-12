@@ -14,6 +14,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh ' echo this is test stage'
+                sh ' sleep 10'
             }
         }
         stage('Deploy') {
