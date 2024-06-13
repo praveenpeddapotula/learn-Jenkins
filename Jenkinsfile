@@ -36,7 +36,6 @@ pipeline {
                 echo "Hello ${params.PERSON}"
                 echo "Biography: ${params.BIOGRAPHY}"
                 echo "TOGGLE: ${params.TOGGLE}"
-                echo "choice is ${params.CHOICE}"
             }
         }
     }
