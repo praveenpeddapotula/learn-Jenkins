@@ -39,7 +39,7 @@ pipeline {
                 echo "choice is ${params.CHOICE}"
             }
         }
-        post{
+    post {
             always{
                 echo " i will say hello again "
             }
