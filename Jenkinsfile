@@ -39,5 +39,17 @@ pipeline {
                 echo "choice is ${params.CHOICE}"
             }
         }
+        post{
+            always{
+                echo " i will say hello again "
+            }
+            success { 
+                echo " i will run when pipeline is success"
+
+            }
+            failure{
+                echo " i will run when pipeline is failure"
+            }
+        }
     }
 }
