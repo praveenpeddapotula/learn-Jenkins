@@ -40,7 +40,7 @@ pipeline {
     }
     post {
             always {
-                echo " i will say hello again "
+                echo " i will say hello to praveen again "
             }
             success { 
                 echo " i will run when pipeline is success"
